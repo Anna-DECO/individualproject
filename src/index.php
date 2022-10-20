@@ -24,7 +24,7 @@
                 <input type="file" name="fileToUpload" id="fileToUpload"><br>
                 <br>
 
-                <input type="submit" value="Upload Image" name="submit" id="fileToUploadSubmission">
+                <input style="font-size: 40px;" type="submit" value="Upload Image" name="submit" id="fileToUploadSubmission">
         </form>
 
         </body>
