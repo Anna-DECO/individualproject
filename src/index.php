@@ -1,9 +1,14 @@
 <html>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
 
-        <?php echo "Use the form below to upload your photograph!";?><br>
+        <h1>Use the form below to upload your photograph!</h1><br>
 
-        <form action="formvalues.php" method="post" enctype="multipart/form-data">
+        <form id="uploadform" class="uploadformwords" action="formvalues.php" method="post" enctype="multipart/form-data">
 
                 <br>
                 <p>Who took this image?</p><br>
@@ -19,8 +24,8 @@
                 <input type="file" name="fileToUpload" id="fileToUpload"><br>
                 <br>
 
-                <input type="submit" value="Upload Image" name="submit">
+                <input type="submit" value="Upload Image" name="submit" id="fileToUploadSubmission">
         </form>
 
-</body>
+        </body>
 </html>
