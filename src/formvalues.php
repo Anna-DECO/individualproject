@@ -1,6 +1,14 @@
 <html>
-        <body>
+        <head>
+                <meta charset="utf-8">
+                <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+                <link rel="stylesheet" href="style.css">
+        </head>
 
+        <body>
+        Thanks for your submission!
+
+        You Submitted the following:
         Photographer: <?php echo $_POST["name"]; ?> <?php echo $_POST["lastname"]; ?><br>
         Image Location: <?php echo $_POST["town"]; ?>, <?php echo $_POST["suburb"]; ?>, <?php echo $_POST["country"]; ?><br>
 
@@ -22,5 +30,8 @@
                 }
         }
         ?>
+        <a href="index.html">
+             <button class="start-but" href="index.html">GO BACK TO HOME PAGE</button>
+        </a>
         </body>
 </html>
