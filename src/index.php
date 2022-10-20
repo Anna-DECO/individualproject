@@ -17,6 +17,7 @@
                 <br>
                 <p>Upload your image here (accepted file types include: jpg, jpeg, png)</p><br>
                 <input type="file" name="fileToUpload" id="fileToUpload"><br>
+                <br>
 
                 <input type="submit" value="Upload Image" name="submit">
         </form>
