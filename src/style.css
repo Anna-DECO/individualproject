@@ -23,13 +23,11 @@ p {
   justify-content: center;
   font-family: 'McLaren', "Comic Sans MS", cursive, sans-serif;
   font-size: 2vw;
-  padding-bottom: 1%;
   padding-left:10px;
   padding-right:20px;
   color:rgb(255, 115, 0);
   text-align: center;
 }
-
 .im-not-a-wrapper {
   height: 100vh;
   width: 100vw;
@@ -44,17 +42,34 @@ a {
   text-decoration: none;
 }
 
-#scroll-image {
-  transform: scale(0.5);
-  display:inline;
-  justify-content: center;
-  padding-top: 1%;
+#scroll-image1 {
+  max-width: 100%;
+  height: 100px;
+  display: block;
+}
+
+#scroll-image2 {
+  max-width: 100%;
+  height: 100px;
+  display: block;
+}
+
+#scroll-image3 {
+  max-width: 100%;
+  height: 100px;
+  display: block;
+}
+
+#scroll-image4 {
+  max-width: 100%;
+  height: 100px;
+  display: block;
 }
 
 .next-link {
   /* general button styling */
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 40px;
   display: block;
   border: none;
   color: white;
@@ -76,21 +91,20 @@ a {
 }
 
 .next-link:hover {
-  background-color:rgb(255, 115, 0);
+  background-color: rgb(255,115,0);
   width:52%;
   font-size:40%;
 }
 
 .content-0 {
-  background-color: rgb(253, 229, 14);
-  margin-bottom: 3em;
+  background-color: lightgrey;
+  margin-bottom: 100px;
 }
 
 #content-1 {
-  background-color:rgb(253, 217, 14);
-  margin-bottom:3em;
+  background-color: lightgrey;
+  margin-bottom: 100px;
 }
-
 .start-but{
   /* general button styling */
   margin: 0 auto;
@@ -123,3 +137,45 @@ a {
 .parallax {
   /* The image used */
   background-image: url('images/background.jpg');
+}
+
+#uploadform {
+  background-color: lightgrey;
+  color: orange;
+  padding: 50px;
+  margin: 50px 50px 50px 50px;
+}
+
+.uploadformwords {
+  display: block;
+  font-family: 'McLaren', "Comic Sans MS", cursive, sans-serif;
+  font-size: 2vw;
+  padding-left:10px;
+  padding-right:20px;
+  color:rgb(255, 115, 0);
+  text-align: center;
+}
+
+#fileToUploadSubmission {
+  /* general button styling */
+  margin: 0 auto;
+  margin-top:130px;
+  display: block;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30%;
+  font-family: 'McLaren',"Comic Sans MS", cursive, sans-serif;
+  width:50%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  /*Button start*/
+  background-color: white;
+  color: orange;
+  border: 5px solid  orange;
+  border-radius: 10px;
+}
