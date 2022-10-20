@@ -1,8 +1,73 @@
-<!DOCTYPE html>
-<html>
-        <body>
-                <h1>Anna's Photograph's</h1>
-                <p>Use the link below to submit a photograph:</p>
-                <a href="index.php">Upload Image</a>
-        </body>
+<!doctype html>
+
+<html lang=”en”>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=McLaren&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="im-not-a-wrapper">
+
+        <div class="home" id="top">
+            <h1>Anna's Photographs</h1>
+            <a href="#thestart">
+                <button class="start-but" href="#thestart"> TAKE A LOOK AROUND </button>
+            </a><br>
+            <p style="padding-top: 20px;">Use the link below to submit a photograph:</p>
+            <a href="index.php">
+                <button class="start-but" href="index.php">SUBMIT A PHOTOGRAPH </button>
+            </a>
+        </div>
+        </div>
+        
+        <!--Parallax scroll-->
+        <div class="parallax">
+
+        <div class="content-0" id="thestart">
+            <h1> 
+                Point Lookout, Stradbroke Island, AUSTRALIA 
+            </h1>
+            <a href="#content-1"> 
+                <button class="next-link"> Go to France </button>
+            </a>
+            <p> </p>
+        </div>
+
+        <div id="content-1">
+            <h1> 
+                Musée du Louvre, Paris, FRANCE
+            </h1>
+            <img id="scroll-image" src="images/paris.jpg">
+            <a href="#content-2"> 
+                <button class="next-link"> Go to Germany </button>
+            </a>
+            <p> </p>
+        </div>
+
+        <div class="content-0" id="content-2">
+            <h1> 
+                Warnemünde Strand, Rostock, GERMANY 
+            </h1>
+
+            <a href="#content-3"> 
+                <button class="next-link"> Go to New Zealand </button>
+            </a>
+        </div>
+
+        <div class="content-0" id="content-3">
+            <h1> 
+                The Remarkables, Devils Staircase, NEW ZEALAND 
+            </h1>
+
+            <a href="#top"> 
+                <button class="next-link">Back to the top </button>
+            </a>
+        </div>
+
+        <!--end scroll parts-->
+        </div>
+
+    </body>
 </html>
